@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class ListOfStringTOCommaSeperatedString {
+public class ListOfStringToCommaSeperatedString {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -18,6 +18,7 @@ public class ListOfStringTOCommaSeperatedString {
 
         String result = strings.stream().collect(Collectors.joining(","));
         System.out.println(result);
+
     }
 
 }
